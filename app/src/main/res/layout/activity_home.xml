@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.Home"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:minHeight="?attr/actionBarSize"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:titleTextColor="@android:color/white"
+        android:background="?attr/colorPrimary">
+    </androidx.appcompat.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur maximus velit quis turpis ultricies congue in in urna. Vestibulum tincidunt nunc eu enim tristique, sit amet porttitor ligula consectetur. Etiam a rhoncus purus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse potenti. Ut bibendum lectus augue, vel tristique metus ultricies quis. Quisque nec tempor massa. Nulla dictum orci purus."/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur maximus velit quis turpis ultricies congue in in urna. Vestibulum tincidunt nunc eu enim tristique, sit amet porttitor ligula consectetur. Etiam a rhoncus purus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse potenti. Ut bibendum lectus augue, vel tristique metus ultricies quis. Quisque nec tempor massa. Nulla dictum orci purus."/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/hamster"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
