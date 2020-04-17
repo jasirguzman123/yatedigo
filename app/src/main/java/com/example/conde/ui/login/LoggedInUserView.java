@@ -1,4 +1,4 @@
-package com.example.yatedigo.ui.login;
+package com.example.conde.ui.login;
 
 /**
  * Class exposing authenticated user details to the UI.

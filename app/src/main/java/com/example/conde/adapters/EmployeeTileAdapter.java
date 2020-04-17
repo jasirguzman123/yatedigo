@@ -1,4 +1,4 @@
-package com.example.yatedigo.adapters;
+package com.example.conde.adapters;
 
 import android.app.Activity;
 import android.view.LayoutInflater;
@@ -9,9 +9,8 @@ import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 
-import com.example.yatedigo.R;
-import com.example.yatedigo.data.model.Customer;
-import com.example.yatedigo.data.model.Employee;
+import com.example.conde.R;
+import com.example.conde.data.model.Employee;
 
 import java.util.List;
 

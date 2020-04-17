@@ -1,11 +1,11 @@
-package com.example.yatedigo.ui.forms;
+package com.example.conde.ui.forms;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
 import android.os.Bundle;
 
-import com.example.yatedigo.R;
+import com.example.conde.R;
 
 public class CustomerForm extends AppCompatActivity {
 

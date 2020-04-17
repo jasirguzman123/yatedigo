@@ -32,22 +32,35 @@
                 android:textSize="24dp"
                 android:textAlignment="center"
                 android:textStyle="bold"/>
-            <LinearLayout
-                android:layout_width="match_parent"
+            <TextView
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:weightSum="1">
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="200dp"
-                    android:src="@drawable/wedo"
-                    android:layout_weight="0.7"/>
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="20dp"
-                    android:layout_weight="0.3"
-                    android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur maximus velit quis turpis ultricies congue in in urna. Vestibulum tincidunt nunc eu enim tristique, sit amet porttitor ligula consectetur. Etiam a rhoncus purus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse potenti. Ut bibendum lectus augue, vel tristique metus ultricies quis. Quisque nec tempor massa. Nulla dictum orci purus."/>
-            </LinearLayout>
+                android:layout_margin="20dp"
+                android:text="Conde has a profile for people with moneylender businesses or sales on credit. It's oriented to businesses of that type, which have multiple employees in charge of distributing products (cash or ware), to people (customers) who adquire the products on credit."/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:text="It allows a more optimal handling when it comes to needing records.
+"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:text="Conde saves the employees and customers information (basic, contact, business), e.g., how much each client owes employees, phone numbers, address, and so on.
+"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:src="@drawable/wedo"
+                android:layout_marginBottom="20dp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:src="@drawable/chineese"
+                android:layout_weight="0.7"/>
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -55,26 +68,31 @@
                 android:textSize="24dp"
                 android:textAlignment="center"
                 android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:layout_weight="0.3"
+                android:text="- To provide our users with better control of their business income through the application, so that they feel more secure when it comes to lending money or selling products."/>
 
-            <LinearLayout
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:layout_weight="0.3"
+                android:text="- To optimize the administration of users and employees information through corresponding interfaces. Hoping customers to notice the good performance."/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:layout_weight="0.3"
+                android:text="- To make the employees, when they see everything systematized, feel better because they are in a company that implements the current technologies."/>
+
+            <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:weightSum="1">
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="20dp"
-                    android:layout_weight="0.3"
-                    android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur maximus velit quis turpis ultricies congue in in urna. Vestibulum tincidunt nunc eu enim tristique, sit amet porttitor ligula consectetur. Etiam a rhoncus purus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse potenti. Ut bibendum lectus augue, vel tristique metus ultricies quis. Quisque nec tempor massa. Nulla dictum orci purus."/>
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="200dp"
-                    android:src="@drawable/chineese"
-                    android:layout_weight="0.7"/>
-            </LinearLayout>
-
-
-
+                android:text="© 2018 Copyright: Conde"
+                android:textAlignment="center"/>
         </LinearLayout>
     </ScrollView>
 

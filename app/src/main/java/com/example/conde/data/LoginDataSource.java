@@ -1,6 +1,6 @@
-package com.example.yatedigo.data;
+package com.example.conde.data;
 
-import com.example.yatedigo.data.model.LoggedInUser;
+import com.example.conde.data.model.LoggedInUser;
 
 import java.io.IOException;
 

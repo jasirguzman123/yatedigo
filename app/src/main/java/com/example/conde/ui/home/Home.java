@@ -1,4 +1,4 @@
-package com.example.yatedigo.ui.home;
+package com.example.conde.ui.home;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -8,11 +8,10 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
 
-import com.example.yatedigo.R;
-import com.example.yatedigo.ui.sections.Customers;
-import com.example.yatedigo.ui.sections.Employees;
+import com.example.conde.R;
+import com.example.conde.ui.sections.Customers;
+import com.example.conde.ui.sections.Employees;
 
 public class Home extends AppCompatActivity {
 

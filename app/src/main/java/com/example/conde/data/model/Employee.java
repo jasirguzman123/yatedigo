@@ -1,6 +1,4 @@
-package com.example.yatedigo.data.model;
-
-import com.github.javafaker.Faker;
+package com.example.conde.data.model;
 
 import java.util.ArrayList;
 import java.util.List;

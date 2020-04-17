@@ -1,4 +1,4 @@
-package com.example.yatedigo.ui.login;
+package com.example.conde.ui.login;
 
 import android.app.Activity;
 
@@ -23,10 +23,8 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.yatedigo.R;
-import com.example.yatedigo.ui.home.Home;
-import com.example.yatedigo.ui.login.LoginViewModel;
-import com.example.yatedigo.ui.login.LoginViewModelFactory;
+import com.example.conde.R;
+import com.example.conde.ui.home.Home;
 
 public class LoginActivity extends AppCompatActivity {
 

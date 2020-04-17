@@ -1,4 +1,4 @@
-package com.example.yatedigo.ui.login;
+package com.example.conde.ui.login;
 
 import androidx.annotation.Nullable;
 

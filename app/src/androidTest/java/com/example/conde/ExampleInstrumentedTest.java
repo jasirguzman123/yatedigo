@@ -1,4 +1,4 @@
-package com.example.yatedigo;
+package com.example.conde;
 
 import android.content.Context;
 

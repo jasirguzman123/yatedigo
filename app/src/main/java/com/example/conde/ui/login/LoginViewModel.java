@@ -1,4 +1,4 @@
-package com.example.yatedigo.ui.login;
+package com.example.conde.ui.login;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
@@ -6,10 +6,10 @@ import androidx.lifecycle.ViewModel;
 
 import android.util.Patterns;
 
-import com.example.yatedigo.data.LoginRepository;
-import com.example.yatedigo.data.Result;
-import com.example.yatedigo.data.model.LoggedInUser;
-import com.example.yatedigo.R;
+import com.example.conde.data.LoginRepository;
+import com.example.conde.data.Result;
+import com.example.conde.data.model.LoggedInUser;
+import com.example.conde.R;
 
 public class LoginViewModel extends ViewModel {
 

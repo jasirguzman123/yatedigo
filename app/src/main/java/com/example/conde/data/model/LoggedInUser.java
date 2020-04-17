@@ -1,4 +1,4 @@
-package com.example.yatedigo.data.model;
+package com.example.conde.data.model;
 
 /**
  * Data class that captures user information for logged in users retrieved from LoginRepository

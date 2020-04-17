@@ -1,11 +1,11 @@
-package com.example.yatedigo.ui.login;
+package com.example.conde.ui.login;
 
 import androidx.lifecycle.ViewModel;
 import androidx.lifecycle.ViewModelProvider;
 import androidx.annotation.NonNull;
 
-import com.example.yatedigo.data.LoginDataSource;
-import com.example.yatedigo.data.LoginRepository;
+import com.example.conde.data.LoginDataSource;
+import com.example.conde.data.LoginRepository;
 
 /**
  * ViewModel provider factory to instantiate LoginViewModel.

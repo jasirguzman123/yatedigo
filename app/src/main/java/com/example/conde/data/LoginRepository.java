@@ -1,6 +1,6 @@
-package com.example.yatedigo.data;
+package com.example.conde.data;
 
-import com.example.yatedigo.data.model.LoggedInUser;
+import com.example.conde.data.model.LoggedInUser;
 
 /**
  * Class that requests authentication and user information from the remote data source and
