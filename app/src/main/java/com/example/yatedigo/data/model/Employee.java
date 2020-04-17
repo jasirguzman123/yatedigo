@@ -27,13 +27,13 @@ public class Employee extends Customer {
 
     static public List<Employee> sampleEmployees() {
         ArrayList<Employee> employees = new ArrayList<>();
-        for (int i = 0; i < 10; i++) {
+        for (int i = 0; i < 7; i++) {
             employees.add(sampleEmployee());
         }
         return employees;
     }
 
-    static public Employee sampleEmployee() {
+    /* static public Employee sampleEmployee() {
         Faker faker = new Faker();
         return new Employee(
                 faker.name().firstName(),
@@ -44,6 +44,18 @@ public class Employee extends Customer {
                 faker.phoneNumber().cellPhone(),
                 Customer.sampleCustomer(),
                 faker.number().randomNumber()
+        );
+    } */
+    static public Employee sampleEmployee() {
+        return new Employee(
+                "Alejandro",
+                "Char",
+                "3106011243",
+                "Masculino",
+                "Calle 12+1 #60-50",
+                "31060123190",
+                Customer.sampleCustomer(),
+                31231
         );
     }
 }

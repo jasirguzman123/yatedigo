@@ -21,7 +21,7 @@ public class Home extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
         Toolbar toolbar = findViewById(R.id.toolbar);
-        toolbar.setTitle("Home");
+        toolbar.setTitle("Conde");
         setSupportActionBar(toolbar);
     }
 

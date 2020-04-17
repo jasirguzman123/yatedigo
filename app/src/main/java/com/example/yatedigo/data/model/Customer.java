@@ -52,14 +52,25 @@ public class Customer {
 
     static public List<Customer> sampleCustomers() {
         ArrayList<Customer> customers = new ArrayList<>();
-        for (int i = 0; i < 10; i++) {
+        for (int i = 0; i < 7; i++) {
             customers.add(sampleCustomer());
         }
         return customers;
     }
 
-    static public Customer sampleCustomer() {
+    /*static public Customer sampleCustomer() {
         Faker faker = new Faker();
         return new Customer(faker.name().firstName(), faker.name().lastName(), faker.number().digits(10), "Masculino", faker.address().fullAddress(), faker.phoneNumber().cellPhone());
+    }*/
+
+    static public Customer sampleCustomer() {
+        return new Customer(
+                "Alejandro",
+                "Char",
+                "3106011243",
+                "Masculino",
+                "Calle 12+1 #60-50",
+                "31060123190"
+        );
     }
 }
