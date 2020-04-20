@@ -4,11 +4,15 @@
     <item
         android:id="@+id/employeesMenuOption"
         app:showAsAction="ifRoom"
-        android:title="Employees">
+        android:title="Employees"
+        >
+    #fff
     </item>
     <item
         android:id="@+id/customersMenuOption"
         app:showAsAction="ifRoom|withText"
         android:title="Customers">
+    @style/myCustomMenuTextAppearance
     </item>
+
 </menu>

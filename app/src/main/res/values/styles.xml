@@ -6,6 +6,11 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
-    </style>
+        <item name="actionMenuTextColor">#fff</item>
+        <item name="android:textColorSecondary">@color/abc_secondary_text_material_light</item>
 
+    </style>
+    <style name="myCustomMenuTextAppearance" parent="@android:style/TextAppearance.Widget.IconMenu.Item">
+        <item name="android:textColor">#fff</item>
+    </style>
 </resources>
